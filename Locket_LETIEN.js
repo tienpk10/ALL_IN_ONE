@@ -2,6 +2,7 @@
 const mapping = {
   'Locket': ['Gold']
 };
+// =========   Phần cố định  ========= // 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
 obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";

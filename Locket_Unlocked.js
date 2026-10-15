@@ -35,7 +35,7 @@ var obj = JSON.parse($response.body);
             interval: 2592000,
             profile_banner: true
         }),
-
+    });
     // ============================================================
     // 2. CHẶN QUẢNG CÁO & TẮT TRACKING (SENTRY)
     // ============================================================

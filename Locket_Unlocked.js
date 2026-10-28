@@ -555,6 +555,17 @@ if (ua.includes("Locket")) {
                             type: "static_content"
                         }
                     },
+                     {
+                        overlay_id: "caption:letien27",
+                        source: "remote",
+                        caption: {
+                            background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
+                            max_lines: 1,
+                            text: "💻 Lê Huy",
+                            text_color: "#183153",
+                            type: "static_content"
+                        }
+                    },
                     {
                         overlay_id: "caption:feeling_cute",
                         source: "remote",
